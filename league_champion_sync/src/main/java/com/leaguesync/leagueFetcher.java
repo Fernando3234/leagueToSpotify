@@ -1,5 +1,8 @@
 package com.leaguesync;
+//Input:  League Of Legends API data 
 
-public class leagueFetcher {
+//Output: ouputs a champion name
 
+public class LeagueFetcher{
+    
 }

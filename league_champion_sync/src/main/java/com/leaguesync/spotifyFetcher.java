@@ -1,5 +1,7 @@
 package com.leaguesync;
 
-public class spotifyFetcher {
+//Input: collection of songs
+//Output: track id / song gets played
+public class SpotifyFetcher {
 
 }

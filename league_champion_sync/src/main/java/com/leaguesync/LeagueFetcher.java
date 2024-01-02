@@ -1,13 +1,16 @@
 package com.leaguesync;
 //Input:  League Of Legends API data 
 
-import java.util.ArrayList;
+import java.io.*;
+import java.util.Map;
 import java.util.Scanner;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+
+import java.io.InputStream;
 
 //Output: ouputs a champion name
 
@@ -74,5 +77,37 @@ public class LeagueFetcher {
             }
         }
         return null;
+    }
+
+    public void getChampName(Object championId){
+        InputStream is = LeagueFetcher.class.getClassLoader().getResourceAsStream("modified_champ_data.json");
+
+        if (is != null) {
+            try (InputStreamReader isr = new InputStreamReader(is)) {
+                // Parse the JSON file
+                JSONParser jsonParser = new JSONParser();
+                JSONObject jsonObject = (JSONObject) jsonParser.parse(isr);
+
+                // Process the JSON Object as needed
+                //if (championId == jsonObject.)
+                for (Map.Entry<String, ?> entry : (Iterable<Map.Entry<String, ?>>) jsonObject.entrySet()) {
+                    String key = entry.getKey();
+                    Object value = entry.getValue();
+                    JSONObject nestedObject = (JSONObject) value;
+                    String nestedKey =  (String) nestedObject.get("key");
+
+                    if (nestedKey.equals(championId.toString())){
+                        System.out.println(key);
+                        return;
+                    }
+
+                }
+
+            } catch (ParseException | IOException e) {
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("File not found");
+        }
     }
 }

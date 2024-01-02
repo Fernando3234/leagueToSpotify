@@ -33,8 +33,6 @@ public class YoutubeFetcher {
                     String title = (String) snippet.get("title");
 
                     if (title.equals(champName)) {
-                        System.out.println(title);
-                        System.out.println("we made it");
                         return item.get("id"); // Assuming you want to return the ID of the item
                     }
                 }

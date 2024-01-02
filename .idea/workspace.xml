@@ -5,45 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b2d62de-266b-4c35-be28-a90d4e9eee88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_1_25_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_youtube_v3_rev222_1_25_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_36_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_gson_1_36_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_25_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_25_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_java6_1_31_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_jetty_1_31_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_22_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_api_0_24_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_contrib_http_util_0_24_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league_champion_sync/league_champion_sync.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league_champion_sync/src/main/resources/modified_champ_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league_champion_sync/target/classes/modified_champ_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/league_champion_sync/src/main/java/com/leaguesync/LeagueFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/league_champion_sync/src/main/java/com/leaguesync/LeagueFetcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/league_champion_sync/src/main/java/com/leaguesync/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/league_champion_sync/src/main/java/com/leaguesync/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/league_champion_sync/src/main/java/com/leaguesync/leagueFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/league_champion_sync/src/main/java/com/leaguesync/LeagueFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/league_champion_sync/src/main/java/com/leaguesync/YoutubeFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/league_champion_sync/src/main/java/com/leaguesync/YoutubeFetcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/league_champion_sync/target/classes/com/leaguesync/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/league_champion_sync/target/classes/com/leaguesync/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/league_champion_sync/target/classes/com/leaguesync/YoutubeFetcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/league_champion_sync/target/classes/com/leaguesync/YoutubeFetcher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/league_champion_sync/target/classes/com/leaguesync/leagueFetcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/league_champion_sync/target/classes/com/leaguesync/leagueFetcher.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "youtubeFetcher",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Projects/LeaguetoSpotify",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"

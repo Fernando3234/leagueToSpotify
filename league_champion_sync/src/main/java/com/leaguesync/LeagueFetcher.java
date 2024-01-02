@@ -68,7 +68,7 @@ public class LeagueFetcher {
 
     // purpose: Using the Array provideed in grabMatchParticipantsData() find the
     // users player and return the champion ID
-    public Object findPlayerChamp(JSONArray participants, String summonerName) throws ParseException {
+    public Object findPlayerChamp(JSONArray participants, String summonerName) {
         Object player;
         for (Object x : participants) {
             player = ((JSONObject) x).get("summonerName");
@@ -97,7 +97,6 @@ public class LeagueFetcher {
                     String nestedKey =  (String) nestedObject.get("key");
 
                     if (nestedKey.equals(championId.toString())){
-                        System.out.println(key);
                         return key;
                     }
 

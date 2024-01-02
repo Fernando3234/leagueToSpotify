@@ -19,5 +19,6 @@ public class Main {
         String accountID = lf.grabAccountId(summonerName);
         JSONArray matchData = lf.grabMatchParticipantsData(accountID);
         System.err.println(lf.findPlayerChamp(matchData, summonerName));
+        lf.getChampName(lf.findPlayerChamp(matchData, summonerName));
     }
 }

@@ -79,7 +79,7 @@ public class LeagueFetcher {
         return null;
     }
 
-    public void getChampName(Object championId){
+    public String getChampName(Object championId){
         InputStream is = LeagueFetcher.class.getClassLoader().getResourceAsStream("modified_champ_data.json");
 
         if (is != null) {
@@ -98,7 +98,7 @@ public class LeagueFetcher {
 
                     if (nestedKey.equals(championId.toString())){
                         System.out.println(key);
-                        return;
+                        return key;
                     }
 
                 }
@@ -109,5 +109,6 @@ public class LeagueFetcher {
         } else {
             System.out.println("File not found");
         }
+        return null;
     }
 }

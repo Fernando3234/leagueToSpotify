@@ -17,27 +17,27 @@ public class YoutubeApi {
 
 
     //grabs all the playlist associated with that channel
-    public static void getChannelPlaylists(String channelId) throws Exception {
+    public static PlaylistListResponse getChannelPlaylists(String channelId,String nextPageToken) throws Exception {
         youtubeService = getService();
         // Define and execute the API request
         YouTube.Playlists.List request = youtubeService.playlists()
                 .list("snippet")
+                .setMaxResults(50L)
+                .setPageToken(nextPageToken)
                 .setKey(API_KEY);
-        PlaylistListResponse response = request.setChannelId(channelId).execute();
-        System.out.println(response);
+        return request.setChannelId(channelId).execute();
     }
 
     //gets the items inside the playlist
-    public static void getPlaylist(String id) throws Exception {
+    public static PlaylistItemListResponse getPlaylistItems(String playlistId, String nextPageToken) throws Exception {
         youtubeService = getService();
         // Define and execute the API request
         YouTube.PlaylistItems.List request = youtubeService.playlistItems()
                 .list("snippet,contentDetails")
                 .setKey(API_KEY);
-        PlaylistItemListResponse response = request.setMaxResults(25L)
-                .setPlaylistId(id)
+        return request.setMaxResults(25L)
+                .setPlaylistId(playlistId)
                 .execute();
-        System.out.println(response);
     }
 
     //initializes YouTube object
